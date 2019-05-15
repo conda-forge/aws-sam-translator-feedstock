@@ -10,7 +10,7 @@ source:
   sha256: db872c43bdfbbae9fc8c9201e6a7aeb9a661cda116a94708ab0577b46a38b962
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python
-    - boto3 ~=1.5
-    - jsonschema ~=2.6
-    - six ~=1.11
+    - boto3 >=1.5,<2
+    - jsonschema >=2.6,<3
+    - six >=1.11,<2
 test:
   imports:
     - samtranslator
