@@ -11,7 +11,6 @@ source:
 
 build:
   number: 0
-  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -23,7 +22,7 @@ requirements:
     - boto3 >=1.5,<2
     - jsonschema >=3.0,<4
     - six >=1.11,<2
-    - enum34 >=1.1,<2  #[py2k]
+    - enum34 >=1.1,<2  # [py2k]
 test:
   imports:
     - samtranslator
