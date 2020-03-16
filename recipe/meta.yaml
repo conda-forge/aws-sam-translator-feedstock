@@ -1,4 +1,4 @@
-{% set version = "1.20.1" %}
+{% set version = "1.22.0" %}
 
 package:
   name: aws-sam-translator
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/aws-sam-translator/aws-sam-translator-{{ version }}.tar.gz
-  sha256: ddf61fdabc94a66ca0a3e7d042d6a0e508bc45bd128c86fb02af0c87a59ac79e
+  sha256: 3ba6a821eda29ca8ea1306e27a8135256d6136f1b0b29c6cbf9a107dfd1c2dd9
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -41,7 +41,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.'
+  summary: AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
   description: |
     You can use SAM to define serverless applications in simple and clean syntax. 
     This GitHub project is the starting point for AWS SAM. 
