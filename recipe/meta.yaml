@@ -10,6 +10,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,7 +22,7 @@ requirements:
     - boto3 >=1.5,<2.0a0
     - jsonschema >=3.0,<4.0a0
     - six >=1.11,<2.0a0
-    - enum34 >=1.1,<2.0a0  # [py<34]
+    - enum34 >=1.1,<2.0a0
 test:
   imports:
     - samtranslator
@@ -35,6 +36,10 @@ test:
     - samtranslator.swagger
     - samtranslator.translator
     - samtranslator.validator
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/awslabs/serverless-application-model
