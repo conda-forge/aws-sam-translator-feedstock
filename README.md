@@ -202,4 +202,7 @@ Feedstock Maintainers
 =====================
 
 * [@hajapy](https://github.com/hajapy/)
+* [@ndmaxar](https://github.com/ndmaxar/)
+* [@oblute](https://github.com/oblute/)
+* [@rluria14](https://github.com/rluria14/)
 
