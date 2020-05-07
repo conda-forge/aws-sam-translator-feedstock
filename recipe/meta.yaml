@@ -9,7 +9,8 @@ source:
   sha256: 6e847b02661247e5d9b99b3bd22351fc6ed614e0f12e0598c0181cb796b3967e
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,7 +22,6 @@ requirements:
     - boto3 >=1.5,<2.0a0
     - jsonschema >=3.0,<4.0a0
     - six >=1.11,<2.0a0
-    - enum34 >=1.1,<2.0a0
 test:
   imports:
     - samtranslator
