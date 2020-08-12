@@ -5,7 +5,7 @@ Home: https://github.com/awslabs/serverless-application-model
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
 
