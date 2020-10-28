@@ -5,9 +5,13 @@ Home: https://github.com/awslabs/serverless-application-model
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sam-translator-feedstock/blob/master/LICENSE.txt)
 
 Summary: AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
+
+Development: https://github.com/awslabs/serverless-application-model
+
+Documentation: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html
 
 You can use SAM to define serverless applications in simple and clean syntax.
 This GitHub project is the starting point for AWS SAM.
