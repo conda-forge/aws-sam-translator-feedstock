@@ -46,6 +46,7 @@ Installing `aws-sam-translator` from the `conda-forge` channel can be achieved b
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `aws-sam-translator` can be installed with:
@@ -125,6 +126,7 @@ Feedstock Maintainers
 =====================
 
 * [@hajapy](https://github.com/hajapy/)
+* [@mxr-conda](https://github.com/mxr-conda/)
 * [@ndmaxar](https://github.com/ndmaxar/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
