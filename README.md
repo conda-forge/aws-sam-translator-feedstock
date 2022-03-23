@@ -5,7 +5,7 @@ Home: https://github.com/awslabs/serverless-application-model
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sam-translator-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sam-translator-feedstock/blob/main/LICENSE.txt)
 
 Summary: AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6691&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/aws-sam-translator-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6691&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/aws-sam-translator-feedstock?branchName=main">
       </a>
     </td>
   </tr>
