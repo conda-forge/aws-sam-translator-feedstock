@@ -1,4 +1,4 @@
-{% set version = "1.54.0" %}
+{% set version = "1.55.0" %}
 
 package:
   name: aws-sam-translator
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/aws-sam-translator/aws-sam-translator-{{ version }}.tar.gz
-  sha256: a3ae79f1f2d430f5ade4d245165d5612414233f540b471d170f1aab95c3713a6
+  sha256: 08e182e76d6fabc13ce2f38b8a3932b3131407c6ad29ec2849ef3d9a41576b94
 
 build:
   noarch: python
