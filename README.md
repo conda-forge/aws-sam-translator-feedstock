@@ -1,11 +1,11 @@
-About aws-sam-translator
-========================
+About aws-sam-translator-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sam-translator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/awslabs/serverless-application-model
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-sam-translator-feedstock/blob/main/LICENSE.txt)
 
 Summary: AWS Serverless Application Model (AWS SAM) prescribes rules for expressing Serverless applications on AWS.
 
