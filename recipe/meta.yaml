@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
     - boto3 >=1.19.5,<2
     - jsonschema >=3.2,<5
-    - pydantic ~=1.10.2
+    - pydantic >=1.10.2,<3
     - typing_extensions >=4.4.0,<5
 
 test:
