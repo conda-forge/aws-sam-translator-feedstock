@@ -58,6 +58,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jan-janssen
     - mxr-conda
     - hajapy
     - rluria14
