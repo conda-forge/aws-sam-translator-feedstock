@@ -154,6 +154,7 @@ Feedstock Maintainers
 =====================
 
 * [@hajapy](https://github.com/hajapy/)
+* [@jan-janssen](https://github.com/jan-janssen/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 * [@ndmaxar](https://github.com/ndmaxar/)
 * [@oblute](https://github.com/oblute/)
