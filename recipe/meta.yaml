@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.8,<4.0
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
     - typing-extensions >=4.4
-    - python >=3.8,<4.0
+    - python >={{ python_min }},<4.0
     - boto3 >=1.19.5,<2
     - jsonschema <5,>=3.2
     - pydantic >=1.8,<3,!=1.10.15,!=1.10.17
@@ -41,6 +41,7 @@ test:
     - samtranslator.validator
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
