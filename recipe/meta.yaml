@@ -1,5 +1,5 @@
 {% set name = "aws-sam-translator" %}
-{% set version = "1.94.0" %}
+{% set version = "1.95.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8ec258d9f7ece72ef91c81f4edb45a2db064c16844b6afac90c575893beaa391
+  sha256: fd2b891fc4cbdde1e06130eaf2710de5cc74442a656b7859b3840691144494cf
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
