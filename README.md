@@ -18,7 +18,6 @@ This GitHub project is the starting point for AWS SAM.
 It contains the SAM specification, the code that translates SAM templates into
 AWS CloudFormation stacks, general information about the model, and examples of common applications.
 
-
 Current build status
 ====================
 
