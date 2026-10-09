@@ -5,7 +5,7 @@
 
 [workspace]
 name = "aws-sam-translator-feedstock"
-version = "2026.9.1"  # conda-smithy version used to generate this file
+version = "2026.9.23"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/aws-sam-translator-feedstock"
 authors = ["@conda-forge/aws-sam-translator"]
 channels = ["conda-forge"]
