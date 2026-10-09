@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aws-sam-translator
-  version: "1.113.0"
+  version: 1.114.0
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 3a24b3c5bab9c24b6389cdf18a7a745d338363c57803364e028718fb078259e5
+  sha256: 680b24eae8fbd56ac1e013b8e9baf5a9bfff14cc2f96f5a7d8158b774bb5080b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,12 +24,10 @@ requirements:
     - setuptools
   run:
     - typing_extensions >=4.4
-    - typing-extensions >=4.4
     - python >=${{ python_min }},<4.0
     - boto3 >=1.34.0,<2.0.0
     - jsonschema <5,>=4.23
     - pydantic >=2.13.3,<2.14.dev0
-
 tests:
   - python:
       imports:
