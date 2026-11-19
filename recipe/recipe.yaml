@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aws-sam-translator
-  version: "1.117.0"
+  version: "1.118.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 4b5a295b5177acf4267374fea8d6c362756304f2d060b8726aaaaa22a97efc05
+  sha256: 117885ba599c6f890c3a5ed20d80dde2a2a3b8c5a784fa58fdccd8ae822f34ef
 
 build:
   number: 0
